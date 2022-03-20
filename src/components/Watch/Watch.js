@@ -16,7 +16,9 @@ const Watch = () => {
             <h1>this is the smart wathch</h1>
            
             <button onClick={run}>run</button><br />
+
             <button onClick={reset}>reset</button>
+            {/* sending data to another component using props */}
             <Cap steps={step}></Cap>
         </div>
     );
